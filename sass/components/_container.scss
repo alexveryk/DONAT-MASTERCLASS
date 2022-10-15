@@ -1,0 +1,29 @@
+/* Задати стилі для контейнера */
+
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--main-background-color);
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
