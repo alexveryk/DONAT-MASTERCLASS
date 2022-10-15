@@ -1,0 +1,55 @@
+@media screen and (max-width: 1279px) {
+  .menu__list {
+    display: none;
+  }
+
+  .mobile-btn {
+    width: 30px;
+    height: 16px;
+    line-height: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .mobile-btn__icon {
+    width: 30px;
+    height: 16px;
+    fill: var(--main-color-page);
+  }
+
+  .logo__img {
+    width: 108px;
+    height: auto;
+  }
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+  .mobile-btn {
+    display: none;
+  }
+
+  .logo__img {
+    width: 106px;
+    height: auto;
+  }
+
+  .menu {
+    display: flex;
+    gap: 55px;
+  }
+
+  .menu__link {
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--main-color-page);
+  }
+}
